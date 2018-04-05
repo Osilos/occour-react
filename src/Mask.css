@@ -1,0 +1,22 @@
+.mask {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mask > span {
+	font-size: 35px;
+	text-transform: uppercase;
+	padding: 10px;
+	border: solid 1px white;
+}
+
+span.visible {
+
+	background-color: green;
+}
+
+span.hidden {
+	background-color: grey;
+}
